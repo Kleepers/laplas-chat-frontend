@@ -1,0 +1,209 @@
+{
+	"login": {
+		"title": "Welcome back",
+		"subtitle": "Login to your Laplas Chat account",
+		"email": "Email",
+		"emailPlaceholder": "m@example.com",
+		"password": "Password",
+		"forgotPassword": "Forgot your password?",
+		"loginButton": "Login",
+		"loading": "Logging in...",
+		"processingAuthentication": "Processing authentication...",
+		"orContinueWith": "Or continue with",
+		"noAccount": "Don't have an account?",
+		"signUp": "Sign up",
+		"termsAndPrivacy": "By clicking continue, you agree to our <termsLink>{{termsText}}</termsLink> and <privacyLink>{{privacyText}}</privacyLink>.",
+		"termsOfService": "Terms of Service",
+		"privacyPolicy": "Privacy Policy",
+		"socialLogin": {
+			"apple": "Login with Apple",
+			"google": "Login with Google",
+			"meta": "Login with Meta"
+		},
+		"errors": {
+			"invalidCredentials": "Invalid email or password",
+			"networkError": "Network error. Please try again",
+			"emailRequired": "Email is required",
+			"passwordRequired": "Password is required"
+		}
+	},
+	"chat": {
+		"newChat": "New Chat",
+		"workflow": "Workflow",
+		"soon": "Soon",
+		"chats": "Chats",
+		"thisWeek": "This week",
+		"lastWeek": "Last week",
+		"renameChat": "Rename",
+		"deleteChat": "Delete",
+		"you": "You",
+		"assistant": "Assistant",
+		"dialog": "Dialog",
+		"tempChat": "Temporary Chat",
+		"noMessages": "No messages yet",
+		"startConversation": "Start a conversation",
+		"tempChatStart": "Temporary chat started",
+		"errorLoadingMessages": "Error loading messages",
+		"typing": "typing...",
+		"deleteChatModal": {
+			"title": "Delete chat?",
+			"description": "Do you want to delete the chat \"{{chatName}}\"? This action is irreversible and all messages will be permanently lost.",
+			"deleteButton": "Delete",
+			"cancelButton": "Cancel"
+		}
+	},
+	"user": {
+		"logout": "Log out",
+		"loggingOut": "Logging out...",
+		"changePassword": "Change password",
+		"toggleTheme": "Toggle theme",
+		"lightTheme": "Light theme",
+		"darkTheme": "Dark theme",
+		"changePasswordModal": {
+			"title": "Change Password",
+			"description": "Enter your current password and choose a new one.",
+			"currentPassword": "Current Password",
+			"newPassword": "New Password",
+			"confirmPassword": "Confirm New Password",
+			"changePasswordButton": "Change Password",
+			"changingPassword": "Changing...",
+			"cancelButton": "Cancel",
+			"validation": {
+				"currentPasswordRequired": "Current password is required",
+				"newPasswordRequired": "New password is required",
+				"confirmPasswordRequired": "Please confirm your password",
+				"passwordMinLength": "Password must be at least {{min}} characters",
+				"passwordMaxLength": "Password must be no more than {{max}} characters",
+				"passwordComplexity": "Password must contain uppercase and lowercase letters, numbers, and special characters",
+				"passwordsDoNotMatch": "Passwords do not match"
+			}
+		}
+	},
+	"chatHeader": {
+		"model": "Model",
+		"openSettings": "Settings",
+		"modelSettings": "Model Settings",
+		"searchModel": "Search model...",
+		"noModelFound": "No model found."
+	},
+	"chatInput": {
+		"placeholder": "Ask something....",
+		"send": "Send",
+		"secureMode": "Secure Mode",
+		"secureModeTooltip": "When Secure Mode is enabled, confidential data including company names, personal information, and other sensitive data is not transmitted to external AI models. We recommend using this mode when working with sensitive information",
+		"webSearch": "Web Search",
+		"webSearchTooltip": "Search the web for current information and real-time data to enhance responses with up-to-date facts",
+		"attachFile": "Attach File",
+		"deepthink": "Deepthink"
+	},
+	"suggestions": {
+		"aiBusinessScaling": "How do large companies scale AI in key business processes?",
+		"aiHealthcare": "What AI solutions do healthcare organizations use for diagnosis and treatment?",
+		"nlpCustomerSupport": "How do companies use NLP to automate customer support?"
+	},
+	"chatSettings": {
+		"title": "Chat Settings",
+		"modelSettings": "Model Settings",
+		"placeholder": "Settings coming soon...",
+		"maxTokens": "Max Tokens",
+		"temperature": "Temperature",
+		"reset": "Reset",
+		"apply": "Apply",
+		"tooltips": {
+			"temperature": "Controls randomness in responses. Lower values make the model more focused and deterministic, while higher values increase creativity and variability.",
+			"outputLength": "Maximum number of tokens the model can generate in a single response. One token is roughly 3-4 characters or 0.75 words in English. Current model supports up to {{maxTokens}} tokens.",
+			"lessAccuracy": "Less accuracy",
+			"moreCreativity": "More creativity",
+			"shorter": "Shorter",
+			"longer": "Longer"
+		}
+	},
+	"common": {
+		"close": "Close",
+		"laplasLogo": "Laplas Logo",
+		"toggleSidebar": "Toggle Sidebar",
+		"copyToClipboard": "Copy to clipboard",
+		"copiedCodeToClipboard": "Copied code to clipboard"
+	},
+	"providers": {
+		"openai": "Open AI",
+		"anthropic": "Anthropic",
+		"perplexity": "Perplexity",
+		"google": "Google",
+		"meta-llama": "Meta",
+		"mistralai": "Mistral",
+		"deepseek": "DeepSeek",
+		"qwen": "Qwen",
+		"grok": "Grok"
+	},
+	"modelDescriptions": {
+		"openai/gpt-5-chat": "Excellent for the most complex business tasks; works with multi-step processes and deep analysis; handles complex company problem solving.",
+		"openai/gpt-5-mini": "Optimal for fast solutions in high-load systems; works with streaming processing and instant responses; handles massive real-time requests.",
+		"openai/gpt-4o": "Suitable for everyday business tasks; works with text and images; handles accurate responses in company processes.",
+		"openai/gpt-4o-mini": "Good for mass chats and bots; works quickly under high load; handles typical requests.",
+		"openai/gpt-4-turbo": "Effective for stable services; works with templates and forms; handles routine automation.",
+		"anthropic/claude-sonnet-4": "Suitable for long documents and clear conclusions; works with contracts and regulations; handles accurate summarization.",
+		"anthropic/claude-opus-4": "Optimal for complex analytics and management materials; works with diverse materials; handles when high accuracy is needed.",
+		"anthropic/claude-3.5-haiku": "Useful for quick drafts and text variations; works with short requests; handles where speed is important.",
+		"perplexity/sonar": "Perfect for finding current information on the internet; works with real data and fresh news; handles quick analysis of current events.",
+		"perplexity/sonar-deep-research": "Excellent for deep research analysis; works with multiple sources and detailed verification; handles complex research tasks.",
+		"google/gemini-2.5-pro": "Recommended for large file sets; works with text, tables and media; handles analysis of presentations and meeting records.",
+		"google/gemini-2.5-flash": "Convenient for streaming tasks; works with classification, tags and typical responses; handles in real time.",
+		"meta-llama/llama-4-maverick": "Appropriate for processing entire documents; works with large amounts of text; handles customization for company tasks.",
+		"meta-llama/llama-3.3-70b-instruct": "Preferable for work on own servers; works with internal data; handles adaptation to company lexicon and rules.",
+		"mistralai/mistral-small-3.2-24b-instruct": "Practical for limited resources; works quickly on regular servers; handles standard office tasks.",
+		"deepseek/deepseek-chat-v3-0324": "Recommended for engineering tasks; works with code and calculations; handles automated tests and calculations.",
+		"deepseek/deepseek-r1:free": "Perfect for experiments and pilots; works with tasks requiring detailed reasoning; handles quick hypothesis testing.",
+		"deepseek/deepseek-r1": "Optimal for important workloads; works stably with long reasoning; handles when predictable results are needed.",
+		"deepseek/deepseek-chat-v3-0324:free": "Good for support prototypes and FAQ; works in basic mode; handles typical customer questions.",
+		"qwen/qwen3-coder": "Suitable for development; works with large code projects; handles code cleanup, updates and examples.",
+		"unavailable": "Description unavailable"
+	},
+	"message": {
+		"copy": "Copy",
+		"factCheck": "Fact Check",
+		"encryptedContent": {
+			"title": "Encrypted Content",
+			"viewEncryptedContent": "View encrypted content"
+		}
+	},
+	"factCheck": {
+		"title": "Fact Check",
+		"modelName": "Perplexity: Sonar",
+		"modelDescription": "Perfect for finding current information on the internet; works with real data and fresh news; handles quick analysis of current events.",
+		"checking": "Checking facts...",
+		"error": "Error checking facts",
+		"errorGeneric": "An error occurred while checking facts",
+		"response": "Check Result",
+		"sources": "Sources",
+		"noData": "Click \"Fact Check\" button to start checking"
+	},
+	"secureMode": {
+		"title": "You have entered secure mode",
+		"description": "Now all your messages undergo local encryption.\nNames, addresses and other personal data are automatically hidden.\nNo data is transmitted outside the platform.",
+		"understood": "Got it"
+	},
+	"disableSecureMode": {
+		"title": "Exit secure mode",
+		"description": "After exiting Secure Mode, your messages and personal data will no longer be encrypted.\nThis may make them accessible to third parties.",
+		"cancel": "Cancel",
+		"confirm": "Got it"
+	},
+	"workflow": {
+		"title": "Workflow",
+		"placeholder": "Workflow feature coming soon...",
+		"status": {
+			"pending": "Pending",
+			"completed": "Completed",
+			"inProgress": "In Progress"
+		},
+		"actions": {
+			"addLeftNode": "Add left node",
+			"addRightNode": "Add right node",
+			"deleteTask": "Delete task"
+		},
+		"assignee": {
+			"unassigned": "Unassigned"
+		}
+	}
+}
